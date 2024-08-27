@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.stopwatch-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(2, 0, 0, 3); /* Add shadow to the container */
+}
+
+.stopwatch {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps div {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 5px 0;
+}
